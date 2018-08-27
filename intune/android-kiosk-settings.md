@@ -46,6 +46,8 @@ If a kiosk device's restriction profile is set to **Kiosk mode** = **single app 
 9. Under **Assign to**, choose **Selected groups**.
 10. Choose **Select groups to include** > choose the device group that you created for your kiosk devices > **Select**.
 
+**Note:** The Managed Home Screen app does not have to be added to the multi-app kiosk profile.
+
 ## Restrict a kiosk device to a set of apps or web links
 
 If a kiosk device's restriction profile is set to **Kiosk mode** = **multi-app kiosk**, users can only access the limited number of apps that you configure. You can also define a set of web links that users can visit. When the policy is applied, users see icons for the permissible apps on the home screen.
