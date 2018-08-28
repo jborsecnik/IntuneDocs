@@ -30,9 +30,9 @@ You can configure a device into single or multi-app kiosk mode by using device c
 
 ## Restrict an Android kiosk device to a single app
 
-If a kiosk device's restriction profile is set to **Kiosk mode** = **single app kiosk**, users can only access a single app. When a device configured in this mode starts up, the specific app starts. Users are restricted from opening new apps or changing the running app.
+If a kiosk device's restriction profile is set to **Kiosk mode** = **single app kiosk**, users can only access a single app. When a device configured in this mode starts up, the specific app starts. Users are restricted from opening new apps or from changing the running app.
 
-1. Make sure the app you want to be used on the kiosk device has been [deployed to the device](apps-deploy.md) and that you've assigned the app to the device group you created for your kiosk devices.
+1. Make sure the app you want on the kiosk device is [deployed to the device](apps-deploy.md), and that you assigned the app to the device group you created for your kiosk devices.
 2. Go to the [Intune portal](https://portal.azure.com) and choose **Device configuration** > **Profiles** > **Create profile**.
 3. In the **Create profile** blade, set the following fields:
      - **Name**
@@ -46,7 +46,8 @@ If a kiosk device's restriction profile is set to **Kiosk mode** = **single app 
 9. Under **Assign to**, choose **Selected groups**.
 10. Choose **Select groups to include** > choose the device group that you created for your kiosk devices > **Select**.
 
-**Note:** The Managed Home Screen app does not have to be added to the multi-app kiosk profile.
+> [!NOTE]
+> The Managed Home Screen app doesn't have to be added to the multi-app kiosk profile.
 
 ## Restrict a kiosk device to a set of apps or web links
 
