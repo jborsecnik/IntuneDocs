@@ -7,7 +7,7 @@ keywords:
 author: MandiOhlinger
 ms.author: mandia
 manager: dougeby
-ms.date: 7/5/2018
+ms.date: 9/13/2018
 ms.topic: article
 ms.prod:
 ms.service: microsoft-intune
@@ -46,9 +46,6 @@ If a kiosk device's restriction profile is set to **Kiosk mode** = **single app 
 9. Under **Assign to**, choose **Selected groups**.
 10. Choose **Select groups to include** > choose the device group that you created for your kiosk devices > **Select**.
 
-> [!NOTE]
-> The Managed Home Screen app doesn't have to be added to the multi-app kiosk profile.
-
 ## Restrict a kiosk device to a set of apps or web links
 
 If a kiosk device's restriction profile is set to **Kiosk mode** = **multi-app kiosk**, users can only access the limited number of apps that you configure. You can also define a set of web links that users can visit. When the policy is applied, users see icons for the permissible apps on the home screen.
@@ -59,7 +56,7 @@ To set an Android kiosk device for multiple apps, follow these main steps:
 2. [Add and assign apps that can be used in kiosk mode](#add-and-assign-apps-that-can-be-used-in-kiosk-mode)
 3. (Optional) [Add web links that can be used in kiosk mode](#add-web-links-that-can-be-used-in-kiosk-mode)
 
-### Import and deply the Managed Home Screen app
+### Import and deploy the Managed Home Screen app
 
 1. Browse to the [Managed Home Screen page on Google Play](https://play.google.com/work/apps/details?id=com.microsoft.launcher.enterprise) and sign in with the same account you use for other managed Google Play apps.
 2. Choose **Approve**.
@@ -67,6 +64,9 @@ To set an Android kiosk device for multiple apps, follow these main steps:
 4. Choose **Apps** > **Managed Home Screen** > **Assignments** > **Add group**.
 5. Under **Assignment type**, choose **Required**.
 6. Choose **Included groups** > **Select groups to include** > choose the device group that you created for your kiosk devices > **Select** > **OK** > **OK** > **Save**.
+
+> [!NOTE]
+> When you add the Managed Home Screen app to the multi-app kiosk profile, an icon is added. But, nothing happens when you select the icon. As a result, you don't have to add the Managed Home Screen app to the multi-app kiosk profile.
 
 ### Add and assign apps that can be used in kiosk mode
 
